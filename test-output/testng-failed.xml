@@ -5,6 +5,7 @@
     <classes>
       <class name="logintestrun">
         <methods>
+          <include name="loginrun"/>
           <include name="driver"/>
           <include name="verifylogin"/>
           <include name="tearDown"/>

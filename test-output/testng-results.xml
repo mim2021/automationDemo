@@ -1,88 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-28T17:17:29 BDT" name="Default Suite" finished-at="2022-06-28T17:17:32 BDT" duration-ms="3389">
+  <suite started-at="2022-06-30T15:23:05 BDT" name="Default Suite" finished-at="2022-06-30T15:23:08 BDT" duration-ms="2639">
     <groups>
     </groups>
-    <test started-at="2022-06-28T17:17:29 BDT" name="automationdemo" finished-at="2022-06-28T17:17:32 BDT" duration-ms="3389">
+    <test started-at="2022-06-30T15:23:05 BDT" name="automationdemo" finished-at="2022-06-30T15:23:08 BDT" duration-ms="2639">
       <class name="logintestrun">
-        <test-method is-config="true" signature="driver()[pri:0, instance:logintestrun@7671cb68]" started-at="2022-06-28T17:17:21 BDT" name="driver" finished-at="2022-06-28T17:17:29 BDT" duration-ms="8133" status="PASS">
+        <test-method is-config="true" signature="driver()[pri:0, instance:logintestrun@747edf66]" started-at="2022-06-30T15:22:59 BDT" name="driver" finished-at="2022-06-30T15:23:05 BDT" duration-ms="5838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driver -->
-        <test-method signature="verifylogin()[pri:0, instance:logintestrun@7671cb68]" started-at="2022-06-28T17:17:29 BDT" name="verifylogin" finished-at="2022-06-28T17:17:32 BDT" duration-ms="3355" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required" data-shrink="false" for="loginEmail" id="loginEmail-label">...</label> is not clickable at point (598, 415). Other element would receive the click: <input aria-invalid="false" id="loginEmail" name="email" placeholder="example@email.com" required="" type="email" class="MuiInputBase-input MuiOutlinedInput-input" value="">
-  (Session info: chrome=103.0.5060.53)
-Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'DESKTOP-C32PGNL', ip: '192.168.21.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7be6f3402cb8d465577a4d22f9e37f2, clickElement {id=9bde51ee-a02a-434c-810d-311b555ce7b5}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Mim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64739/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c7be6f3402cb8d465577a4d22f9e37f2)] -> xpath: //label[@id='loginEmail-label']]
-Session ID: c7be6f3402cb8d465577a4d22f9e37f2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required" data-shrink="false" for="loginEmail" id="loginEmail-label">...</label> is not clickable at point (598, 415). Other element would receive the click: <input aria-invalid="false" id="loginEmail" name="email" placeholder="example@email.com" required="" type="email" class="MuiInputBase-input MuiOutlinedInput-input" value="">
-  (Session info: chrome=103.0.5060.53)
-Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
-System info: host: 'DESKTOP-C32PGNL', ip: '192.168.21.119', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c7be6f3402cb8d465577a4d22f9e37f2, clickElement {id=9bde51ee-a02a-434c-810d-311b555ce7b5}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Mim\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:64739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64739/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c7be6f3402cb8d465577a4d22f9e37f2)] -> xpath: //label[@id='loginEmail-label']]
-Session ID: c7be6f3402cb8d465577a4d22f9e37f2
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:551)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-at logIn.emailIcon(logIn.java:28)
-at logintestrun.verifylogin(logintestrun.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="verifylogin()[pri:0, instance:logintestrun@747edf66]" started-at="2022-06-30T15:23:05 BDT" name="verifylogin" finished-at="2022-06-30T15:23:06 BDT" duration-ms="1240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintestrun@7671cb68]" started-at="2022-06-28T17:17:32 BDT" name="tearDown" finished-at="2022-06-28T17:17:37 BDT" duration-ms="4704" status="PASS">
+        <test-method signature="loginrun()[pri:1, instance:logintestrun@747edf66]" started-at="2022-06-30T15:23:06 BDT" name="loginrun" finished-at="2022-06-30T15:23:08 BDT" duration-ms="1349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginrun -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintestrun@747edf66]" started-at="2022-06-30T15:23:08 BDT" name="tearDown" finished-at="2022-06-30T15:23:13 BDT" duration-ms="5171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
